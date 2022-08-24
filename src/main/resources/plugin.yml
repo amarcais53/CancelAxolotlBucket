@@ -1,4 +1,4 @@
 name: CancelAxolotlBucket
 version: '${project.version}'
 main: fr.quentin.cancelaxolotlbucket.CancelAxolotlBucket
-api-version: 1.17.1
+api-version: 1.17
