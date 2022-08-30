@@ -13,7 +13,7 @@ public final class CancelAxolotlBucket extends JavaPlugin {
     public void onEnable() {
 
         getServer().getPluginManager().registerEvents(new Listener() {
-            @EventHandler(priority = EventPriority.NORMAL)
+            @EventHandler(priority = EventPriority.LOWEST)
             public void on(PlayerBucketEntityEvent event) {
                 if (event.getEntity() instanceof Axolotl) {
                     event.setCancelled(true);
